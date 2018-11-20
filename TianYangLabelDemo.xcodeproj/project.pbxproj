@@ -13,26 +13,8 @@
 		3B747CFB21A3B5610006E0FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B747CFA21A3B5610006E0FC /* Assets.xcassets */; };
 		3B747CFE21A3B5610006E0FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B747CFC21A3B5610006E0FC /* LaunchScreen.storyboard */; };
 		3B747D0121A3B5610006E0FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B747D0021A3B5610006E0FC /* main.m */; };
-		3B747D0B21A3B5610006E0FC /* TianYangLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B747D0A21A3B5610006E0FC /* TianYangLabelDemoTests.m */; };
-		3B747D1621A3B5610006E0FC /* TianYangLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B747D1521A3B5610006E0FC /* TianYangLabelDemoUITests.m */; };
+		3B747D2621A3B7A00006E0FC /* TYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B747D2521A3B7A00006E0FC /* TYLabel.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3B747D0721A3B5610006E0FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3B747CE621A3B5610006E0FC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3B747CED21A3B5610006E0FC;
-			remoteInfo = TianYangLabelDemo;
-		};
-		3B747D1221A3B5610006E0FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3B747CE621A3B5610006E0FC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3B747CED21A3B5610006E0FC;
-			remoteInfo = TianYangLabelDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3B747CEE21A3B5610006E0FC /* TianYangLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TianYangLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,30 +27,12 @@
 		3B747CFD21A3B5610006E0FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B747CFF21A3B5610006E0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B747D0021A3B5610006E0FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3B747D0621A3B5610006E0FC /* TianYangLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TianYangLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B747D0A21A3B5610006E0FC /* TianYangLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TianYangLabelDemoTests.m; sourceTree = "<group>"; };
-		3B747D0C21A3B5610006E0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B747D1121A3B5610006E0FC /* TianYangLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TianYangLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B747D1521A3B5610006E0FC /* TianYangLabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TianYangLabelDemoUITests.m; sourceTree = "<group>"; };
-		3B747D1721A3B5610006E0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B747D2421A3B7A00006E0FC /* TYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLabel.h; sourceTree = "<group>"; };
+		3B747D2521A3B7A00006E0FC /* TYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3B747CEB21A3B5610006E0FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B747D0321A3B5610006E0FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B747D0E21A3B5610006E0FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				3B747CF021A3B5610006E0FC /* TianYangLabelDemo */,
-				3B747D0921A3B5610006E0FC /* TianYangLabelDemoTests */,
-				3B747D1421A3B5610006E0FC /* TianYangLabelDemoUITests */,
 				3B747CEF21A3B5610006E0FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				3B747CEE21A3B5610006E0FC /* TianYangLabelDemo.app */,
-				3B747D0621A3B5610006E0FC /* TianYangLabelDemoTests.xctest */,
-				3B747D1121A3B5610006E0FC /* TianYangLabelDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +61,7 @@
 		3B747CF021A3B5610006E0FC /* TianYangLabelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3B747D2321A3B78F0006E0FC /* TianYangLabel */,
 				3B747CF121A3B5610006E0FC /* AppDelegate.h */,
 				3B747CF221A3B5610006E0FC /* AppDelegate.m */,
 				3B747CF421A3B5610006E0FC /* ViewController.h */,
@@ -114,22 +75,13 @@
 			path = TianYangLabelDemo;
 			sourceTree = "<group>";
 		};
-		3B747D0921A3B5610006E0FC /* TianYangLabelDemoTests */ = {
+		3B747D2321A3B78F0006E0FC /* TianYangLabel */ = {
 			isa = PBXGroup;
 			children = (
-				3B747D0A21A3B5610006E0FC /* TianYangLabelDemoTests.m */,
-				3B747D0C21A3B5610006E0FC /* Info.plist */,
+				3B747D2421A3B7A00006E0FC /* TYLabel.h */,
+				3B747D2521A3B7A00006E0FC /* TYLabel.m */,
 			);
-			path = TianYangLabelDemoTests;
-			sourceTree = "<group>";
-		};
-		3B747D1421A3B5610006E0FC /* TianYangLabelDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3B747D1521A3B5610006E0FC /* TianYangLabelDemoUITests.m */,
-				3B747D1721A3B5610006E0FC /* Info.plist */,
-			);
-			path = TianYangLabelDemoUITests;
+			path = TianYangLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,42 +104,6 @@
 			productReference = 3B747CEE21A3B5610006E0FC /* TianYangLabelDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B747D0521A3B5610006E0FC /* TianYangLabelDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B747D1D21A3B5610006E0FC /* Build configuration list for PBXNativeTarget "TianYangLabelDemoTests" */;
-			buildPhases = (
-				3B747D0221A3B5610006E0FC /* Sources */,
-				3B747D0321A3B5610006E0FC /* Frameworks */,
-				3B747D0421A3B5610006E0FC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3B747D0821A3B5610006E0FC /* PBXTargetDependency */,
-			);
-			name = TianYangLabelDemoTests;
-			productName = TianYangLabelDemoTests;
-			productReference = 3B747D0621A3B5610006E0FC /* TianYangLabelDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3B747D1021A3B5610006E0FC /* TianYangLabelDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B747D2021A3B5610006E0FC /* Build configuration list for PBXNativeTarget "TianYangLabelDemoUITests" */;
-			buildPhases = (
-				3B747D0D21A3B5610006E0FC /* Sources */,
-				3B747D0E21A3B5610006E0FC /* Frameworks */,
-				3B747D0F21A3B5610006E0FC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3B747D1321A3B5610006E0FC /* PBXTargetDependency */,
-			);
-			name = TianYangLabelDemoUITests;
-			productName = TianYangLabelDemoUITests;
-			productReference = 3B747D1121A3B5610006E0FC /* TianYangLabelDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,14 +115,6 @@
 				TargetAttributes = {
 					3B747CED21A3B5610006E0FC = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					3B747D0521A3B5610006E0FC = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 3B747CED21A3B5610006E0FC;
-					};
-					3B747D1021A3B5610006E0FC = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 3B747CED21A3B5610006E0FC;
 					};
 				};
 			};
@@ -224,8 +132,6 @@
 			projectRoot = "";
 			targets = (
 				3B747CED21A3B5610006E0FC /* TianYangLabelDemo */,
-				3B747D0521A3B5610006E0FC /* TianYangLabelDemoTests */,
-				3B747D1021A3B5610006E0FC /* TianYangLabelDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,20 +147,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B747D0421A3B5610006E0FC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B747D0F21A3B5610006E0FC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,41 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B747CF621A3B5610006E0FC /* ViewController.m in Sources */,
+				3B747D2621A3B7A00006E0FC /* TYLabel.m in Sources */,
 				3B747D0121A3B5610006E0FC /* main.m in Sources */,
 				3B747CF321A3B5610006E0FC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B747D0221A3B5610006E0FC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B747D0B21A3B5610006E0FC /* TianYangLabelDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B747D0D21A3B5610006E0FC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B747D1621A3B5610006E0FC /* TianYangLabelDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3B747D0821A3B5610006E0FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3B747CED21A3B5610006E0FC /* TianYangLabelDemo */;
-			targetProxy = 3B747D0721A3B5610006E0FC /* PBXContainerItemProxy */;
-		};
-		3B747D1321A3B5610006E0FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3B747CED21A3B5610006E0FC /* TianYangLabelDemo */;
-			targetProxy = 3B747D1221A3B5610006E0FC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3B747CF721A3B5610006E0FC /* Main.storyboard */ = {
@@ -465,80 +329,6 @@
 			};
 			name = Release;
 		};
-		3B747D1E21A3B5610006E0FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 58WG392FFH;
-				INFOPLIST_FILE = TianYangLabelDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = TianYang.TianYangLabelDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TianYangLabelDemo.app/TianYangLabelDemo";
-			};
-			name = Debug;
-		};
-		3B747D1F21A3B5610006E0FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 58WG392FFH;
-				INFOPLIST_FILE = TianYangLabelDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = TianYang.TianYangLabelDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TianYangLabelDemo.app/TianYangLabelDemo";
-			};
-			name = Release;
-		};
-		3B747D2121A3B5610006E0FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 58WG392FFH;
-				INFOPLIST_FILE = TianYangLabelDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = TianYang.TianYangLabelDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TianYangLabelDemo;
-			};
-			name = Debug;
-		};
-		3B747D2221A3B5610006E0FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 58WG392FFH;
-				INFOPLIST_FILE = TianYangLabelDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = TianYang.TianYangLabelDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TianYangLabelDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -556,24 +346,6 @@
 			buildConfigurations = (
 				3B747D1B21A3B5610006E0FC /* Debug */,
 				3B747D1C21A3B5610006E0FC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B747D1D21A3B5610006E0FC /* Build configuration list for PBXNativeTarget "TianYangLabelDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B747D1E21A3B5610006E0FC /* Debug */,
-				3B747D1F21A3B5610006E0FC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B747D2021A3B5610006E0FC /* Build configuration list for PBXNativeTarget "TianYangLabelDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B747D2121A3B5610006E0FC /* Debug */,
-				3B747D2221A3B5610006E0FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

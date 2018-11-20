@@ -1,0 +1,7 @@
+TianYangLabelDemo.xcodeproj/xcuserdata/
+TianYangLabelDemo.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+TianYangLabelDemo.xcodeproj/project.xcworkspace/xcuserdata/
